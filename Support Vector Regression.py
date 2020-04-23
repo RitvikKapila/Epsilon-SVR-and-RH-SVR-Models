@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-# Author: Ritvik Kapila 2
+# Author: Ritvik Kapila
 # coding: utf-8
 
 # In[1]:
@@ -30,7 +30,7 @@ from mpl_toolkits import mplot3d
 # df = df.drop('index', axis = 1)
 # df
 
-df = pd.read_csv('data.csv')
+df = pd.read_csv('data2.csv')
 df = (df-df.min())/(df.max()-df.min())
 
 
