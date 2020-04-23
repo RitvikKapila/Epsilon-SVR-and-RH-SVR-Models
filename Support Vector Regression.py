@@ -30,7 +30,7 @@ from mpl_toolkits import mplot3d
 # df = df.drop('index', axis = 1)
 # df
 
-df = pd.read_csv('data2.csv')
+df = pd.read_csv('data.csv')
 df = (df-df.min())/(df.max()-df.min())
 
 
